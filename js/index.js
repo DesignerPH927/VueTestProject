@@ -4,7 +4,7 @@
 const dessert = {
   data() {
     return {
-      totalCount: 3,
+      // totalCount: 3,
       temp: {},
       products: [
         {
