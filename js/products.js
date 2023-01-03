@@ -20,7 +20,7 @@ const app = {
         .catch((err) => {
           alert(err.response.data.message);
           // 若登入失敗，導向login頁面
-          window.location = 'login.html';
+          window.location = 'index.html';
         })
     },
     // 取得遠端products列表
